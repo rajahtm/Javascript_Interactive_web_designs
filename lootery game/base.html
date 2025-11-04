@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pick your gift </title>
+    <style>
+        h1{
+            text-align: center;;
+        }
+        .lotary{
+          
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+        }
+       .b{ 
+         
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-wrap: wrap;
+             margin: 10px;
+        }
+        .re{ width: 200px;
+            height: 35px;
+            background-color: yellow;
+              display: flex;
+              flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             flex-wrap: wrap;
+             margin: 5px;
+             text-align: center;
+        }
+        .winningbox{
+            border: 3px solid red;
+            background-color: green;
+        }
+        .highlight{
+                   border: 3px solid red;
+        }
+        #picknumber{
+            background-color: green;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            color: white;
+            border-radius: 2px;
+        }
+           #picknumber:hover{
+            background-color: red;
+           }
+    </style>
+</head>
+<body>
+    
+<h1>lootery game</h1>
+<div class="lotary">
+    <div class="b" id="box">
+        <!-- <div class="re">hello</div> -->
+    </div>
+<h2 id="result"></h2>
+<h2 id="wait"></h2>
+<button id="picknumber">pick a numbers</button>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
